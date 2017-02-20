@@ -1,7 +1,7 @@
 [Desktop Entry]
 Encoding=UTF-8
-Name=Animated
-Name[x-test]=xxAnimatedxx
+Name=Animated GIF
+Name[x-test]=xxAnimatedGIFxx
 
 Type=Service
 ServiceTypes=Plasma/Wallpaper
