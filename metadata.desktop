@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Animated
+Name[x-test]=xxAnimatedxx
+
+Type=Service
+ServiceTypes=Plasma/Wallpaper
+Icon=preferences-desktop-wallpaper
+X-Plasma-MainScript=ui/main.qml
+X-KDE-PluginInfo-Name=org.kde.animated
+X-KDE-PluginInfo-EnabledByDefault=true
