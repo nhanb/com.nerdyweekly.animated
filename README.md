@@ -1,17 +1,18 @@
 # Animated GIF wallpaper for KDE Plasma 5
 
-[Demo Video](https://youtu.be/wwXWWk_AWu4)
+[Demo Video](https://youtu.be/sGenByoaOpo)
 
 - Put this in `~/.local/share/plasma/wallpapers/org.kde.animated`.
 - Go to **Desktop Settings**, choose **Wallpaper Type: Animated GIF**, apply, profit.
-- Optional: replace `contents/ui/animation.gif` with your animated gif of choice.
+- Optional: replace `contents/ui/animation.gif` with your animated gif of choice. You may need to
+  tweak the image dimensions a bit in `contents/ui/main.qml`.
 
 ![Plasma Desktop Settings](settings.png)
 
 # TODO (read: probably never)
 
 - Configurable wallpaper with proper file picker and stuff
-- Support resolutions other than 1080p
+- Support resolutions other than 1920x1080.
 
 # Rice Rice Baby
 
@@ -27,7 +28,8 @@ A bird's eye view:
 - **contents/ui/main.qml**: how to render the wallpaper
 - **contents/ui/config.qml**: how to render the wallpaper config window
 - You can preview your QML files quickly with `qmlscene <file>.qml`. Probably comes with QtCreator.
-- May need to logout then login again for the updated `main.qml` to take effect.
+- May need to logout then login again for the updated `main.qml` to take effect. Or you can
+  manually restart it with with `killall plasma && plasma`.
 
 # Credits
 
