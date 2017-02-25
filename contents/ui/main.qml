@@ -1,5 +1,6 @@
 import QtQuick 2.5
 import org.kde.plasma.core 2.0 as PlasmaCore
+import QtGraphicalEffects 1.0
 
 Rectangle {
     id: root
@@ -14,5 +15,14 @@ Rectangle {
         fillMode: Image.PreserveAspectFit
         smooth: false
         cache: true
+    }
+
+    FastBlur {
+        id: blur
+        visible: wallpaper.configuration.Blur
+        anchors.fill: animation
+
+        source: animation
+        radius: 50
     }
 }
